@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelephoneNumbers", "TelephoneNumbers.csproj", "{BE1C4FCA-8C3F-4F0D-8A75-E35FDA18F6E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE1C4FCA-8C3F-4F0D-8A75-E35FDA18F6E8}.Debug|x86.ActiveCfg = Debug|x86
+		{BE1C4FCA-8C3F-4F0D-8A75-E35FDA18F6E8}.Debug|x86.Build.0 = Debug|x86
+		{BE1C4FCA-8C3F-4F0D-8A75-E35FDA18F6E8}.Release|x86.ActiveCfg = Release|x86
+		{BE1C4FCA-8C3F-4F0D-8A75-E35FDA18F6E8}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
