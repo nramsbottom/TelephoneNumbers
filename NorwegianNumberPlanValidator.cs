@@ -13,7 +13,7 @@ namespace net.iskai.tools.TelephoneNumbers
 	/// <summary>
 	/// Validates numbers based on the information located here http://no.wikipedia.org/wiki/Nummerplan
 	/// </summary>
-	class NorwegianNumberPlanValidator : INumberPlanValidator
+	public class NorwegianNumberPlanValidator : INumberPlanValidator
 	{
 		public bool IsValid( string telephoneNumber , NumberPlanValidatorMask mask = NumberPlanValidatorMask.Geographic | NumberPlanValidatorMask.Mobile )
 		{
@@ -39,6 +39,8 @@ namespace net.iskai.tools.TelephoneNumbers
 			if ( ( mask & NumberPlanValidatorMask.NonGeographic ) == NumberPlanValidatorMask.NonGeographic )
 			{
 				if ( Regex.IsMatch( telephoneNumber , @"^8\d{7}$" ) )
+					return true;
+				if (Regex.IsMatch(telephoneNumber, @"^0[0-9]\d{3}$"))
 					return true;
 			}
 
