@@ -28,6 +28,11 @@ namespace net.iskai.tools.TelephoneNumbers
 			WriteResult( "Fixed" , isFixed );
 			WriteResult( "Premium" , isPremium );
 
+#if DEBUG
+			Console.WriteLine("Press any key.");
+			Console.ReadKey(true);
+#endif
+
 		}
 
 		static void WriteResult(string caption, bool result)

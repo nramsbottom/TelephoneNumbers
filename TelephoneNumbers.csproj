@@ -46,6 +46,7 @@
     <Compile Include="INumberPlanValidator.cs" />
     <Compile Include="NorwegianNumberPlanValidator.cs" />
     <Compile Include="NumberPadTranslator.cs" />
+    <Compile Include="NumberPlanValidatorMask.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
