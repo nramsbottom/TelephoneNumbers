@@ -5,3 +5,4 @@ TelephoneNumbers
 
 This is a simple application that I wrote for a very specific purpose. It remains here as a testbed for exprimentation with source control systems.
 
+Icon sourced from [findicons.com](http://findicons.com/icon/459916/dialer_mdpi)
